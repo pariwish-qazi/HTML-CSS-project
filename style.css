@@ -1,0 +1,160 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #dddddd56;
+    background-image: url(bg2.png);
+}
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #333333da;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/dcdfc08b-6d0f-46ed-8c05-fb611e3242e8/621b2b2a-66de-42be-a106-8213cdac0892.png') ;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero p {
+    font-size: 20px;
+
+}
+
+.btn {
+    background: #416191;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 70px;
+
+}
+
+.btn:hover {
+    background: #7e91e7;
+}
+
+/* Services Section */
+.services {
+    padding: 40px 0;
+    background-color: #1d06067a;
+    
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-card {
+    background: #43708d;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+/* About Section */
+.about {
+    padding: 40px 0;
+}
+
+.about h2, .about p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    background-color: #dddddd31;    
+    
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffffffc0;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc6c;
+    color: #ddddddb2;
+}
+
+.contact button {
+    background: #333;
+    color: #ffffff8e;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #555;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
